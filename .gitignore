@@ -1,0 +1,33 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (large files)
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+
+# Virtual environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+*.png
+*.jpg
+reports/figures/*
+!reports/figures/.gitkeep
