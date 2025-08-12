@@ -31,3 +31,6 @@ Thumbs.db
 *.jpg
 reports/figures/*
 !reports/figures/.gitkeep
+
+# Keep placeholder files
+!.gitkeep
